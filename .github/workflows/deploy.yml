@@ -28,7 +28,7 @@ jobs:
           FACEBOOK_CLIENT_ID: ${{ secrets.FACEBOOK_CLIENT_ID }}
           FACEBOOK_CLIENT_SECRET: ${{ secrets.FACEBOOK_CLIENT_SECRET }}
           YT_API_KEY: ${{ secrets.YT_API_KEY }}
-          run: "deno task build" # 📝 Update the build command(s) if necessary
+        run: "deno task build" # 📝 Update the build command(s) if necessary
 
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
