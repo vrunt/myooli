@@ -5,6 +5,12 @@
 .env.production.local
 .env.local
 
+# swap files
+*.swp
+
+# DS Store
+.DS_Store
+
 # Fresh build directory
 _fresh/
 # npm dependencies
