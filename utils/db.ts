@@ -1,4 +1,4 @@
-import { User } from "./types.ts"
+import { User } from "./types.ts";
 
 const kv = await Deno.openKv();
 

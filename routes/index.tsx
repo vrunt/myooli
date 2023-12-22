@@ -8,7 +8,7 @@ export default async function HomePage(req: Request) {
 
   return (
     <>
-      <p>User: { activeUser?.name || "(none)" }</p>
+      <p>User: {activeUser?.name || "(none)"}</p>
       {!isSignedIn && (
         <p>
           <a href="/signin">Sign in</a>
