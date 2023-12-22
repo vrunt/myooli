@@ -1,7 +1,5 @@
-# Fresh project
-
-Your new Fresh project is ready to go. You can follow the Fresh "Getting
-Started" guide here: https://fresh.deno.dev/docs/getting-started
+# myooli
+A "Music League" style game built on Fresh: https://fresh.deno.dev/
 
 ### Usage
 
@@ -14,4 +12,3 @@ deno task start
 ```
 
 This will watch the project directory and restart as necessary.
-# myooli
