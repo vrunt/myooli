@@ -10,7 +10,7 @@ import { User } from "./types.ts";
 import { setUserWithSession } from "./db.ts";
 
 const callbackUri = !!Deno.env.get("DENO_REGION")
-  ? `https://${Deno.hostname()}/callback`
+  ? "https://myooli.deno.dev/callback"
   : "http://localhost:8000/callback"
 
 const { signIn, signOut, handleCallback } = createHelpers(
