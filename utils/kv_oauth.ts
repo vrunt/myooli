@@ -11,7 +11,7 @@ import { setUserWithSession } from "./db.ts";
 
 const { signIn, signOut, handleCallback } = createHelpers(
   createFacebookOAuthConfig({
-    redirectUri: "http://localhost:8000/callback",
+    redirectUri: "https://myooli.deno.dev/callback",
     scope: "email",
   })
 );
