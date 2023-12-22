@@ -6,8 +6,6 @@ export default async function HomePage(req: Request) {
   const isSignedIn = sessionId !== undefined;
   const activeUser = isSignedIn ? await getUserBySession(sessionId) : null;
 
-  console.log(activeUser);
-
   return (
     <>
       <p>Provider: FB</p>
