@@ -9,7 +9,7 @@ import { getAuthenticatedUser } from "./fb_user_info.ts";
 import { User } from "./types.ts";
 import { setUserWithSession } from "./db.ts";
 
-const callbackUri = !!Deno.env.get("DENO_REGION")
+const callbackUri = !Deno.env.get("DENO_REGION")
   ? "https://myooli.deno.dev/callback"
   : "http://localhost:8000/callback"
 
