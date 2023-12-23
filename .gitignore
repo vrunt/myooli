@@ -15,3 +15,4 @@
 _fresh/
 # npm dependencies
 node_modules/
+static/.DS_Store
