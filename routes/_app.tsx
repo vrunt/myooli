@@ -12,8 +12,8 @@ export default defineApp((req, ctx) => {
         <title>Myooli</title>
         <link rel="stylesheet" href="/styles.css" />
       </head>
-      <body class="yp-4" style="font-family: 'Mulish', sans-serif">
-        <h1 class="text-4xl font-bold" style="font-family: 'Paytone One', sans-serif">myooli</h1>
+      <body class="p-2" style="font-family: 'Mulish', sans-serif">
+        <h1 class="p-2 text-4xl font-bold" style="font-family: 'Paytone One', sans-serif">myooli</h1>
         <ctx.Component />
       </body>
     </html>
